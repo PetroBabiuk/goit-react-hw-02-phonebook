@@ -12,6 +12,7 @@ const ContactList = ({contacts, onDeleteContact}) => (
                 onDelete={() => onDeleteContact(id)}
             />
         ))}
+        
     </ul>
 );
 
